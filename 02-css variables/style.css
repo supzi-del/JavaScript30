@@ -1,0 +1,43 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+*{
+  font-family:"Montserrat";
+}
+
+
+/*css variables definition*/
+:root{
+  --base: red;
+  --spacing:10px;
+  --blur:10px;
+}
+
+img{
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl{
+  color: var(--base);
+}
+
+
+
+body {
+      text-align: center;
+      
+ background: linear-gradient(315deg, #e4b5cb 0%, #722ae6 74%);
+      
+      font-weight: 100;
+      font-size: 50px;
+    }
+
+    .controls {
+      margin-bottom: 50px;
+    }
+
+    input {
+      width: 100px;
+    }
