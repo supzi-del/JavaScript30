@@ -1,2 +1,2 @@
 # JavaScript30
-30 days Vanilla JS Challenge
+30 days Vanilla JavaScript Challenge
